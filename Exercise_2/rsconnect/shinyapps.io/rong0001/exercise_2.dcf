@@ -5,7 +5,7 @@ account: rong0001
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 15303314
-bundleId: 10906492
+bundleId: 10907177
 url: https://rong0001.shinyapps.io/exercise_2/
 version: 1
 asMultiple: FALSE
