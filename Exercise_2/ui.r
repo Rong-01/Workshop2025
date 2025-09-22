@@ -1,4 +1,4 @@
-library(shiny)
+library(shiny) 
 
 # Define UI for dataset viewer application
 shinyUI(fluidPage(theme = "bootstrap.css",
@@ -7,7 +7,7 @@ shinyUI(fluidPage(theme = "bootstrap.css",
   headerPanel("Exercise 2, light extinction"),
 
   # Sidebar with controls to select a dataset and specify the number
-  # of observations to view
+  # of observations to view 
   sidebarPanel(
 
     sliderInput("k1",
