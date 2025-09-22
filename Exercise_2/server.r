@@ -11,7 +11,7 @@ shinyServer(function(input, output) {
     light3=input$I_0*exp(-input$k3*LAI_vec)
 
     plot(LAI_vec, light1, type="l", col="firebrick1", lwd=2, ylim=range(c(light1, light2, light3)), xlab="LAI",
-         ylab=expression(paste("Light exctinction (",mu,"mol ",m^-2, s^-1,")", sep = "")))
+         ylab=expression(paste("Remaining light under the canopy (",mu,"mol ",m^-2, s^-1,")", sep = "")))
     lines(LAI_vec,light1, col="firebrick1", lwd=2)
     lines(LAI_vec,light2, col="darkgreen", lwd=2)
     lines(LAI_vec,light3, col="violet", lwd=2)
